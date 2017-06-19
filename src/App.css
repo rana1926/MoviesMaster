@@ -1,0 +1,41 @@
+body{
+	background-color: #000;
+	color: #fff;
+}
+.App{
+	text-align: center;
+	padding: 5%;
+}
+
+/* profile */
+.profile{
+	display:flex;
+	justify-content: center;
+}
+.profile-info{
+	margin:10px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.profile-image{
+	width: 150px;
+	height: 300px;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	object-fit: cover;
+}
+.profile-title{
+	font-size: 26px;
+}
+.profile-genres{
+	font-size: 18px;
+}
+
+/* trailers */
+.trailer{
+	display: inline-block;
+	margin: 10px;
+	text-align: left;
+}
